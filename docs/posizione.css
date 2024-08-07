@@ -1,0 +1,115 @@
+body {
+  height: auto !important;
+}
+
+.sub-header-bar {
+  position: relative !important;
+}
+
+.intro-text-nim {
+  min-width: 60% !important;
+}
+
+.content-container-nim {
+  background-color: #eeeeee;
+  margin-top: 2em;
+  padding-bottom: 1em;
+}
+
+.map-nim {
+  width: 98%;
+  max-width: 579px;
+  border: 5px solid #903485; /* viola #903485, mar choaro #8b7965, mar scuro #504033 */
+  border-radius: 10px;
+}
+@media only screen and (max-width: 579px) {
+  .map-nim {
+    width: 100%;
+    border: none;
+  }
+}
+
+.map-container-nim {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.all-text-container-nim {
+  margin-left: 4%;
+  margin-right: 4%;
+  color: #504033;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+.text-section-container {
+  padding: 20px;
+  margin-bottom: 1em;
+}
+
+.text-section-container span {
+  color: #504033;
+  font-size: 1.25em;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  display: block;
+}
+
+main a {
+  color: #903585;
+  font-weight: 400;
+}
+
+.button-appartamenti-container-nim {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.button-appartamenti-nim {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  text-transform: uppercase;
+  background: #903585;
+  color: #fff;
+  border-radius: 10px;
+  border-color: #903585;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 500px) {
+  .button-appartamenti-nim {
+    max-width: 500px;
+  }
+}
+.button-appartamenti-nim a {
+  display: block;
+  color: white;
+  padding: 0.4em 1em;
+}
+.button-appartamenti-nim .icon-more {
+  float: right;
+}
+.button-appartamenti-nim .icon-more:before {
+  line-height: 1em !important;
+  padding-top: 7px;
+  font-size: 0.8em;
+}
+.button-appartamenti-nim:hover {
+  background-color: white;
+  border-color: #903585;
+  border-width: 2px;
+  border-style: solid;
+}
+.button-appartamenti-nim a:hover {
+  color: #903585 !important;
+}
+
+.section-intro-nim .text p {
+  margin-bottom: 1em;
+}

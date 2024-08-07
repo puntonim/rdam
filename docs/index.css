@@ -1,0 +1,52 @@
+.button-appartamenti-container-nim {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.button-appartamenti-nim {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  text-transform: uppercase;
+  background: #903585;
+  color: #fff;
+  border-radius: 10px;
+  border-color: #903585;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 500px) {
+  .button-appartamenti-nim {
+    max-width: 500px;
+  }
+}
+.button-appartamenti-nim a {
+  display: block;
+  color: white;
+  padding: 0.4em 1em;
+}
+.button-appartamenti-nim .icon-more {
+  float: right;
+}
+.button-appartamenti-nim .icon-more:before {
+  line-height: 1em !important;
+  padding-top: 7px;
+  font-size: 0.8em;
+}
+.button-appartamenti-nim:hover {
+  background-color: white;
+  border-color: #903585;
+  border-width: 2px;
+  border-style: solid;
+}
+.button-appartamenti-nim a:hover {
+  color: #903585 !important;
+}
+
+.intro-text-container-nim p {
+  margin-bottom: 1em;
+}
